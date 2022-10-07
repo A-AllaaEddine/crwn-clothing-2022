@@ -1,4 +1,3 @@
-import './shop.styles.scss';
 
 import { Routes, Route } from 'react-router-dom';
 

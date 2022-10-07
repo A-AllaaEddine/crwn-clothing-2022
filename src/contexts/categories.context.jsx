@@ -13,7 +13,6 @@ export const CategoriesProvider = ({ children }) => {
     useEffect(() => {
         const getCatergoryMap = async () => {
             const categoryMap = await getCategoriesAndDocuments();
-            console.log(categoryMap);
             setCategoriesMap(categoryMap);
         };
 

@@ -1,7 +1,7 @@
-// import './navigation.styles.scss';
+
 import { NavigationContainer, NavLinks, NavLink, LogoContainer } from './navigation.styles';
 
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { Fragment, useContext } from 'react';
 import { ReactComponent  as CrwnLogo } from '../../assets/crown.svg';
 
